@@ -461,44 +461,12 @@
 
                 <div class="form-wrapper">
                     <h3>Webからの見積依頼・相談</h3>
-                    <!-- Dummy Form -->
-                    <form action="#" class="consult-form"
-                        onsubmit="event.preventDefault(); alert('これはデモ用のフォームです。実際はGoogleフォーム等へ送信されます。');">
-                        <div class="form-group">
-                            <label for="frm-company">施設・会社名 <span class="badge-req">必須</span></label>
-                            <input type="text" id="frm-company" name="company" placeholder="例：介護老人保健施設 〇〇" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="frm-name">ご担当者名 <span class="badge-req">必須</span></label>
-                            <input type="text" id="frm-name" name="name" placeholder="例：山田 太郎" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="frm-phone">電話番号 <span class="badge-req">必須</span></label>
-                            <input type="tel" id="frm-phone" name="phone" placeholder="例：090-0000-0000" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="frm-email">メールアドレス <span class="badge-any">任意</span></label>
-                            <input type="email" id="frm-email" name="email" placeholder="例：info@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="frm-content">ご相談内容・検討状況 <span class="badge-req">必須</span></label>
-                            <select id="frm-content" name="content" required>
-                                <option value="" selected disabled>選択してください</option>
-                                <option value="見積もりが欲しい">おおよその見積もりが欲しい</option>
-                                <option value="導入の流れを聞きたい">導入の流れを詳しく聞きたい</option>
-                                <option value="現地を見て提案してほしい">現地を見て提案してほしい</option>
-                                <option value="その他">その他</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="frm-message">詳細・ご質問など</label>
-                            <textarea id="frm-message" name="message" rows="4"
-                                placeholder="設置したい場所のイメージや、ご予算の目安などがあればご記入ください。"></textarea>
-                        </div>
-                        <div class="form-submit">
-                            <button type="submit" class="btn btn--primary btn--block">無料で相談してみる（入力1分）</button>
-                        </div>
-                    </form>
+                    <p class="form-wrapper__desc">下記ボタンよりGoogleフォームにてお問い合わせください。</p>
+                    <div class="form-submit">
+                        <a href="https://forms.gle/dhEV24yW84miniNRA" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--block">
+                            お問い合わせフォームへ（入力1分）
+                        </a>
+                    </div>
                 </div>
 
             </div>
